@@ -1,0 +1,56 @@
+
+body{
+	background-color: rgb(61, 43, 59);
+}
+.hello{
+	background-color: #000;
+	height: 30%;
+}
+.bye{
+	padding-top: 1%;
+	padding-right: 0.5%;
+	padding-left: 2%;
+	padding-bottom: 0.1%;
+	display: inline-block;
+	float: left;
+	height:60px;
+	width:70px;
+}
+h1{
+	display: inline-block;
+	color: #f80;
+	height: 1.8ems;
+	padding-top: 0.7%;
+	font-family: 'H', 'Trebuchet MS', Helvetica;
+	background-color: #000;
+}
+img{
+	height: 460px;
+}
+nav a{
+	color: #f80;
+	font-family: 'H', 'Trebuchet MS', Helvetica;
+}
+.clickme{
+	background-color: rgb(28, 9, 31);
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 4%;
+	color: white;
+	border-radius: 25px;
+	padding: 5%;
+	font-family: 'H', 'Trebuchet MS', Helvetica;
+}
+
+.clickme:hover{
+	background-color: black;
+	color:white;
+	text-decoration: none;
+}
+.card{
+	margin-bottom: 5%;
+	margin-top:1%;
+	display: inline-block;
+	margin-right: 3%;
+	margin-left: 2%;
+}
