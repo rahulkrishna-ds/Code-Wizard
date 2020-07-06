@@ -39,9 +39,11 @@ nav a{
 }
 .bitmoji > img{
 	background-color: rgb(113, 183, 190);
-	height: 200px;
-	border-radius: 100px;
+	height: 40vh;
+	size: 2.2ems;
+	border-radius: 100%;
 	display: block;
+	size: 50%;
 }
 .bitmoji > h5{
 	font-size: 24px;
