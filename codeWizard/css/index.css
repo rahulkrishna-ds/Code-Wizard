@@ -1,78 +1,99 @@
-body{
-	background-color: rgb(61, 43, 59);
+@media only screen and (min-width: 800px){
+	body{
+		background-color: rgb(61, 43, 59);
+	}
+	.hello{
+		background-color: #000;
+		height: 30%;
+	}
+	.bye{
+		padding-top: 1%;
+		padding-right: 0.5%;
+		padding-left: 2%;
+		padding-bottom: 0.1%;
+		display: inline-block;
+		float: left;
+		height:60px;
+		width:70px;
+	}
+	h1{
+		display: inline-block;
+		color: #f80;
+		height: 1.8ems;
+		padding-top: 0.7%;
+		font-family: 'H', 'Trebuchet MS', Helvetica;
+		background-color: #000;
+	}
+	img{
+		height: 460px;
+	}
+	nav a{
+		color: #f80;
+		font-family: 'H', 'Trebuchet MS', Helvetica;
+	}
+	.bitmoji{
+		padding: 3%;
+		margin-left: 42%;
+		margin-bottom: 13%; 
+		height: 1vh;
+		margin-bottom: 360px;
+	}
+	.bitmoji > img{
+		background-color: rgb(113, 183, 190);
+		height: 40vh;
+		size: 2.2ems;
+		border-radius: 100%;
+		display: block;
+		size: 50%;
+	}
+	.bitmoji > h5{
+		font-size: 24px;
+		color: white;
+		font-family: 'H', 'Trebuchet MS', Helvetica;
+	}
+	span{
+		color: #f80;
+	}
+	.footer {
+	  position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  height: 5%;
+	  width: 100%;
+	  background-color: rgba(113, 183, 190,0.3);
+	  color: white;
+	  text-align: center;
+	}
+	.fa-github{
+		color: black;
+	}
+	.footer > a{
+		margin-right: 2%;
+	}
+	h6{
+		display: inline;
+		margin-left: 2%;
+	}
+	.fa-hackerrank{
+		color: #1ba94c;
+	}
 }
-.hello{
-	background-color: #000;
-	height: 30%;
-}
-.bye{
-	padding-top: 1%;
-	padding-right: 0.5%;
-	padding-left: 2%;
-	padding-bottom: 0.1%;
-	display: inline-block;
-	float: left;
-	height:60px;
-	width:70px;
-}
-h1{
-	display: inline-block;
-	color: #f80;
-	height: 1.8ems;
-	padding-top: 0.7%;
-	font-family: 'H', 'Trebuchet MS', Helvetica;
-	background-color: #000;
-}
-img{
-	height: 460px;
-}
-nav a{
-	color: #f80;
-	font-family: 'H', 'Trebuchet MS', Helvetica;
-}
-.bitmoji{
-	padding: 3%;
-	margin-left: 42%;
-	margin-bottom: 13%; 
-	height: 1vh;
-	margin-bottom: 360px;
-}
-.bitmoji > img{
-	background-color: rgb(113, 183, 190);
-	height: 40vh;
-	size: 2.2ems;
-	border-radius: 100%;
-	display: block;
-	size: 50%;
-}
-.bitmoji > h5{
-	font-size: 24px;
-	color: white;
-	font-family: 'H', 'Trebuchet MS', Helvetica;
-}
-span{
-	color: #f80;
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 5%;
-  width: 100%;
-  background-color: rgba(113, 183, 190,0.3);
-  color: white;
-  text-align: center;
-}
-.fa-github{
-	color: black;
-}
-.footer > a{
-	margin-right: 2%;
-}
-h6{
-	display: inline;
-	margin-left: 2%;
-}
-.fa-hackerrank{
-	color: #1ba94c;
+@media only screen and (max-width: 800px){
+
+	h1{
+		display: inline-block;
+		color: #f80;
+		height: 1.8ems;
+		padding-top: 0.7%;
+		font-family: 'H', 'Trebuchet MS', Helvetica;
+		background-color: #000;
+	}
+	body{
+		background-color: rgb(61, 43, 59);
+	}
+	.hello{
+		background-color: #000;
+		height: 30%;
+		width: 100%;
+	}
 }
