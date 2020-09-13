@@ -96,5 +96,9 @@
 		background-color: #000;
 		height: 30%;
 		width: 100%;
+		padding-left: 0%;
+	}
+	img{
+		height: 320px;
 	}
 }
