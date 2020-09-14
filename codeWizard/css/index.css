@@ -1,10 +1,8 @@
 
 @media only screen and (max-width: 720px){
-	.bitmoji > img
+	.bitmoji
 	{
-		height: 170px;
-		width: 350px;
-		margin-left: 0%;
+		display:none;
 	}
 }
 body{
